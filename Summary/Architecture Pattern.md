@@ -65,7 +65,7 @@
 layer를 거치지 않는 logic 20%, 거치는 logic은 80%로 유지한다는 것이다.
 - Toward Monolithic: 아무리 Layer를 나누어 처리를 한다고 하더라도 큰
 틀에서 본다면 Layer Pattern은 Monolithic 한 개발론을 추구하게 된다는 것.
-## Layered Patttern 평가
+## Layered Pattern 평가
 - Agility(**LOW**) : Layer Isolation으로 인해 각 레이어의 변경에 대해서는 빠른
 변경을 이룰 수 있으나, 전체 Architecture 라는 면에서 보자면 각 Layer 내의
 Component 간의 의존성 및 monolithic 한 구현 등에 의해 큰 시간을 들여야 한다.
