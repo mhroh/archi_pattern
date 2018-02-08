@@ -38,7 +38,7 @@
 개발, 테스트, 유지/보수를 용이하게 하는 특징이 되나, 특정 요청처리를 위해
 불필요한 Layer를 거쳐야 한다는 단점도 만드는 개념이다.
 ### Layer Open, Close:
-[Layer Open, Close] (https://www.safaribooksonline.com/library/view/software-architecture-patterns/9781491971437/assets/sapr_0103.png)
+[Layer Open, Close](https://www.safaribooksonline.com/library/view/software-architecture-patterns/9781491971437/assets/sapr_0103.png)
 -  각 Layer들은 자신의 요청을 아래의 layer로 전달하는 방식으로 Logic을
 처리하고 있기에, 여러 Layer에서 공유되는 Layer가 추가 된다면  불필요하게
 모든 하위 Layer를 거쳐야 된다는 문제점을 해결하기 위해 추가된 개념
@@ -49,7 +49,7 @@
     Closed, Open 개념을 넣어 Service Layer의 경우 이를 무시하고 다른 하위 Layer
     로 요청을 보내는 것을 허용하는 것.
 ## Layered Pattern Example:
-[Layered Pattern Example] (https://www.safaribooksonline.com/library/view/software-architecture-patterns/9781491971437/assets/sapr_0104.png)
+[Layered Pattern Example](https://www.safaribooksonline.com/library/view/software-architecture-patterns/9781491971437/assets/sapr_0104.png)
 - 링크의 그림에서 보는 것과 같이 Presentation Layer에서 시작된 요청(검은색 화살)
 은 하위 layer는 Component 를 거쳐 DataBase Layer에 도착하고 이 요청에 대한
 응답(붉은색 화살)을 Database Layer는 자신의 바로 위 Layer인 Persistent Layer로
