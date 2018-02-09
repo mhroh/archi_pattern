@@ -58,7 +58,7 @@
 - Sinkhole anti-pattern: 이미 **Layer Open, Close, Layer Isolation** 에서 보았듯이
 최상위 layer의 요청이 하위의 layer를 거처 전달될 때 불필요한 처리가 일어
 남을 보았다. 특히나 요청에 대해 중간 layer가 처리를 해야 할 logic이 없을 경우
-이를 보안하기 위해 Open Layer특성을 부여하는 등으로 넘길 수 있으나 이러한
+이를 보완하기 위해 Open Layer특성을 부여하는 등으로 넘길 수 있으나 이러한
 부분이 커지게 되면 Layered Pattern의 규칙에 위배되는 상황이 만들어지며 이를
 **Sinkhole anti-pattern** 이라고 부른다.
 - 80-20 rule: **Sinkhole anti-pattern** 을 피하기 위한 rule로써, 하위
