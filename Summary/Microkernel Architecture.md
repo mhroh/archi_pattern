@@ -33,7 +33,7 @@
 ## Pattern Analysis
 - Overall Agility : High
   + 
-- Case of deployment : High
+- Ease of deployment : High
   + 
 - Testablility : High
   + 
@@ -41,5 +41,5 @@
   + 
 - Scalability : Low
   + 
-- Case of development : Low
+- Ease of development : Low
   + 
